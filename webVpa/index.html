@@ -1,0 +1,200 @@
+<html><head>
+<title>Verdier Piazza y Asociados - Contadores, Auditores y Consultores</title>
+<style>
+  :root {
+    --primary-color: #FF0000;
+    --secondary-color: #333;
+    --text-color: #444;
+    --background-color: #f9f9f9;
+    --header-bg-color: #e10c0c;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    line-height: 1.6;
+  }
+  .header {
+    background: rgb(17,0,0);
+    background: linear-gradient(0deg, rgba(17,0,0,1) 7%, rgba(225,12,12,1) 46%);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px 0;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav a {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: opacity 0.3s ease;
+  }
+  .nav a:hover {
+    opacity: 0.8;
+  }
+  .hero {
+    background-image: url('https://i.postimg.cc/y62nvZ1v/fondo-Inicio.png');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-align: center;
+    padding: 100px 0;
+  }
+  .hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  .hero p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto 30px;
+  }
+  .cta-button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .cta-button:hover {
+    background-color: #cc0000;
+  }
+  .services {
+    padding: 80px 0;
+    text-align: center;
+  }
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+  }
+  .service-item {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  .service-item:hover {
+    transform: translateY(-5px);
+  }
+  .service-item h3 {
+    color: var(--secondary-color);
+    margin-top: 0;
+  }
+  .about {
+    background-color: #f0f0f0;
+    padding: 80px 0;
+  }
+  .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .about-text {
+    flex: 1;
+    padding-right: 40px;
+  }
+  .about-image {
+    flex: 1;
+  }
+  .about-image img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  .footer {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+</style>
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <div class="logo">
+        <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/dVPdTRsc/logo.png' alt="Verdier Piazza logo with VP initials, 'Verdier Piazza' text, and 'contadores auditores consultores' tagline" width="200" height="100"/></a>
+      </div>
+      <nav>
+        <a href="/index.html">Inicio</a>
+        <a href="/nosotros.html">Nosotros</a>
+        <a href="/servicios.html">Servicios</a>
+        <a href="/contactanos.html">Contáctanos</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Soluciones Contables y Financieras de Excelencia</h1>
+      <p>En Verdier Piazza y Asociados, ofrecemos servicios integrales de contabilidad, auditoría y consultoría para impulsar el éxito de su negocio.</p>
+      <a href="/contactanos.html" class="cta-button">Solicita una Consulta</a>
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="container">
+      <h2>Nuestros Servicios</h2>
+      <div class="service-grid">
+        <div class="service-item">
+          <h3>Contabilidad</h3>
+          <p>Servicios contables precisos y oportunos para mantener sus finanzas en orden.</p>
+        </div>
+        <div class="service-item">
+          <h3>Auditoría</h3>
+          <p>Auditorías exhaustivas para garantizar el cumplimiento y la transparencia financiera.</p>
+        </div>
+        <div class="service-item">
+          <h3>Consultoría Fiscal</h3>
+          <p>Asesoramiento experto en materia fiscal para optimizar su situación tributaria.</p>
+        </div>
+        <div class="service-item">
+          <h3>Asesoría Empresarial</h3>
+          <p>Consultoría estratégica para impulsar el crecimiento y la eficiencia de su empresa.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container about-content">
+      <div class="about-text">
+        <h2>Sobre Verdier Piazza y Asociados</h2>
+        <p>Con más de 25 años de experiencia, somos líderes en servicios contables y financieros en Argentina. Nuestro equipo de profesionales altamente calificados está comprometido con la excelencia y la innovación, proporcionando soluciones personalizadas que se adaptan a las necesidades únicas de cada cliente.</p>
+        <p>En Verdier Piazza, no solo nos enfocamos en los números, sino en construir relaciones sólidas y duraderas con nuestros clientes, convirtiéndonos en su socio de confianza para el éxito a largo plazo.</p>
+      </div>
+      <div class="about-image">
+        <a href='https://postimg.cc/r055xwn7' target='_blank'><img src='https://i.postimg.cc/rmPg6dSy/oficina.png' alt="Oficina moderna de Verdier Piazza con profesionales trabajando" width="500" height="300"/></a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2023 Verdier Piazza y Asociados. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body></html>

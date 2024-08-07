@@ -1,0 +1,166 @@
+<html><head>
+<title>Servicios - Verdier Piazza y Asociados</title>
+<style>
+  :root {
+    --primary-color: #FF0000;
+    --secondary-color: #333;
+    --text-color: #444;
+    --background-color: #f9f9f9;
+    --header-bg-color: #e10c0c;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    line-height: 1.6;
+  }
+  .header {
+    background-color: var(--header-bg-color);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px 0;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav a {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: opacity 0.3s ease;
+  }
+  .nav a:hover {
+    opacity: 0.8;
+  }
+  .content {
+    padding: 50px 0;
+  }
+  h1, h2 {
+    color: var(--secondary-color);
+  }
+  .services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+  }
+  .service-item {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .service-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  .service-item h3 {
+    color: var(--secondary-color);
+    margin-top: 0;
+  }
+  .service-item ul {
+    padding-left: 20px;
+  }
+  .footer {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+  }
+</style>
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <div class="logo">
+        <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/dVPdTRsc/logo.png' alt="Verdier Piazza logo with VP initials, 'Verdier Piazza' text, and 'contadores auditores consultores' tagline" width="200" height="100"/></a>
+      </div>
+      <nav>
+        <a href="/index.html">Inicio</a>
+        <a href="/nosotros.html">Nosotros</a>
+        <a href="/servicios.html">Servicios</a>
+        <a href="/contactanos.html">Contáctanos</a>
+      </nav>
+    </div>
+  </header>
+  
+  <main class="content container">
+    <h1>Nuestros Servicios</h1>
+    <p>En Verdier Piazza y Asociados, ofrecemos una amplia gama de servicios contables, de auditoría y consultoría para satisfacer las necesidades de su negocio. Nuestro equipo de expertos está comprometido a proporcionar soluciones personalizadas y de alta calidad para impulsar el éxito de su empresa.</p>
+    
+    <div class="services">
+      <div class="service-item">
+        <h3>Impuestos</h3>
+        <ul>
+          <li>Planificación fiscal estratégica</li>
+          <li>Preparación y presentación de declaraciones de impuestos</li>
+          <li>Asesoramiento en materia de IVA, Ganancias e Ingresos Brutos</li>
+          <li>Representación ante autoridades fiscales</li>
+          <li>Optimización de la carga tributaria</li>
+        </ul>
+      </div>
+      
+      <div class="service-item">
+        <h3>Auditoría</h3>
+        <ul>
+          <li>Auditorías financieras</li>
+          <li>Auditorías internas</li>
+          <li>Auditorías de cumplimiento normativo</li>
+          <li>Revisiones limitadas</li>
+          <li>Auditorías de sistemas y procesos</li>
+        </ul>
+      </div>
+      
+      <div class="service-item">
+        <h3>Administración</h3>
+        <ul>
+          <li>Gestión financiera y contable</li>
+          <li>Elaboración y análisis de estados financieros</li>
+          <li>Implementación de sistemas contables</li>
+          <li>Asesoramiento en control interno</li>
+          <li>Planificación y presupuestación</li>
+        </ul>
+      </div>
+      
+      <div class="service-item">
+        <h3>Liquidación de Sueldos</h3>
+        <ul>
+          <li>Procesamiento de nóminas</li>
+          <li>Cálculo de cargas sociales</li>
+          <li>Emisión de recibos de sueldo</li>
+          <li>Presentación de declaraciones juradas</li>
+          <li>Asesoramiento en legislación laboral</li>
+        </ul>
+      </div>
+    </div>
+    
+    <h2>Nuestro Compromiso</h2>
+    <p>En Verdier Piazza, nos comprometemos a ofrecer servicios de la más alta calidad, adaptados a las necesidades específicas de cada cliente. Nuestro enfoque se basa en la construcción de relaciones sólidas y duraderas, proporcionando asesoramiento experto y soluciones innovadoras para ayudar a su empresa a prosperar en un entorno empresarial en constante evolución.</p>
+  </main>
+  
+  <footer class="footer">
+    <div class="container">
+      © 2023 Verdier Piazza y Asociados. Todos los derechos reservados.
+    </div>
+  </footer>
+</body></html>
